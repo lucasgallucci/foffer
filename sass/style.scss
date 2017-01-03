@@ -1,7 +1,7 @@
 $color1: #008AB4;
 $border-gray: #E5E5E5;
 $icon-gray: #9B9B9B;
-
+$text-color: #9B9B9B;
 
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900');
@@ -19,17 +19,41 @@ body{
 .bg-gray{
 	background: #F4F4F4;
 }
+
 h3{
 	font-size: 20px;
 	font-weight: 700;
 }
 
+h4{
+	font-size: 16px;
+	font-weight: 600;
+}
+
+hr{
+	margin: 0 10px;
+}
+
+.margin{
+	margin: 10px 0;
+}
+
 .btn{
+		color: $text-color;
+		padding: 0 5px;
+		border: 1px solid $text-color;
+		font-size: 12px;
 	&.white{
 		color: white;
-		padding: 0 5px;
 		border: 1px solid white;
 	}
+}
+
+.well{
+	padding: 10px;
+    background: white;
+    box-shadow: none;
+    border: none;
 }
 
 header{
@@ -71,7 +95,7 @@ header{
 .categories{
 	display: flex;
 	flex-wrap: nowrap;
-	padding: 10px;
+	padding: 15px 10px;
 	overflow-x: scroll; 
 	article{
 		flex: 1;
