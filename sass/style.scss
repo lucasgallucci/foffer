@@ -1,0 +1,89 @@
+$color1: #008AB4;
+$border-gray: #E5E5E5;
+$icon-gray: #9B9B9B;
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900');
+@import "bootstrap-fix";
+@import "nav";
+@import "footer";
+@import "slider";
+@import "offer-tile";
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #4A4A4A;
+}
+
+.bg-gray{
+	background: #F4F4F4;
+}
+h3{
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.btn{
+	&.white{
+		color: white;
+		padding: 0 5px;
+		border: 1px solid white;
+	}
+}
+
+header{
+	color: white;
+	.carousel{
+		.carousel-caption{
+			left: 15px;
+			right: 15px;
+			text-align: left;
+			ul{
+				list-style: none;
+				padding: 0;
+				li{
+					color: white;
+					line-height: 16px;
+					&:before{
+						content:"+ ";
+					}
+				}
+			}
+		}
+	}
+}
+
+.offset{
+	padding-top: 55px;
+	padding-bottom: 70px;
+}
+
+.no-padding-left{
+	padding-left: 0;
+}
+
+.no-padding-right{
+	padding-right: 0;
+}
+
+
+.categories{
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 10px;
+	overflow-x: scroll; 
+	article{
+		flex: 1;
+		margin: 0 15px;
+		min-width: 80px;
+	}
+}
+
+
+
+
+
+
+
+

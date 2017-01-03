@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900");
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+nav {
+  background: #008AB4;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 10; }
+  nav .col-xs-10 {
+    padding-left: 10px;
+    padding-right: 10px; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  border-top: 1px solid #E5E5E5;
+  z-index: 10;
+  background: white; }
+  footer ul.nav-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around; }
+    footer ul.nav-menu li a {
+      color: #9B9B9B; }
+      footer ul.nav-menu li a.selected {
+        color: #008AB4; }
+      footer ul.nav-menu li a span {
+        font-size: 22px; }
+
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity; }
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0; }
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1; }
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0); }
+.carousel-fade .carousel-control {
+  z-index: 2; }
+
+.offer-tile {
+  border-radius: 5px;
+  background: white; }
+  .offer-tile .content {
+    margin: 5px; }
+    .offer-tile .content h2 {
+      font-size: 13px;
+      letter-spacing: 0;
+      line-height: 14px;
+      margin: 10px 0;
+      font-weight: 600;
+      height: 50px;
+      overflow: hidden; }
+    .offer-tile .content .price-box {
+      display: flex;
+      justify-content: space-around; }
+      .offer-tile .content .price-box .retail-price {
+        font-size: 14px;
+        color: #9B9B9B;
+        font-weight: 600;
+        text-decoration: line-through;
+        margin: 0;
+        line-height: 10px; }
+      .offer-tile .content .price-box .save {
+        font-size: 11px;
+        color: #9B9B9B;
+        font-weight: 300;
+        letter-spacing: 0; }
+      .offer-tile .content .price-box .price {
+        font-size: 15px;
+        color: #7ED321;
+        letter-spacing: 0;
+        font-weight: 700; }
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #4A4A4A; }
+
+.bg-gray {
+  background: #F4F4F4; }
+
+h3 {
+  font-size: 20px;
+  font-weight: 700; }
+
+.btn.white {
+  color: white;
+  padding: 0 5px;
+  border: 1px solid white; }
+
+header {
+  color: white; }
+  header .carousel .carousel-caption {
+    left: 15px;
+    right: 15px;
+    text-align: left; }
+    header .carousel .carousel-caption ul {
+      list-style: none;
+      padding: 0; }
+      header .carousel .carousel-caption ul li {
+        color: white;
+        line-height: 16px; }
+        header .carousel .carousel-caption ul li:before {
+          content: "+ "; }
+
+.offset {
+  padding-top: 55px;
+  padding-bottom: 70px; }
+
+.no-padding-left {
+  padding-left: 0; }
+
+.no-padding-right {
+  padding-right: 0; }
+
+.categories {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 10px;
+  overflow-x: scroll; }
+  .categories article {
+    flex: 1;
+    margin: 0 15px;
+    min-width: 80px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,42 @@
+.offer-tile{
+	border-radius: 5px;
+	background: white;
+	.content{
+		margin: 5px;	
+		h2{
+			font-size: 13px;
+			letter-spacing: 0;
+			line-height: 14px;
+			margin: 10px 0;
+			font-weight: 600;
+			height: 50px;
+			overflow: hidden;
+		}
+
+		.price-box{
+			display: flex;
+			justify-content: space-around;
+			.retail-price{
+				font-size: 14px;
+				color: #9B9B9B;
+				font-weight: 600;
+				text-decoration: line-through;
+				margin: 0;
+				line-height: 10px;
+			}
+			.save{
+				font-size: 11px;
+				color: #9B9B9B;
+				font-weight: 300;
+				letter-spacing: 0;
+			}
+
+			.price{	
+				font-size: 15px;
+				color: #7ED321;
+				letter-spacing: 0;
+				font-weight: 700;
+			}
+		}
+	}
+}
