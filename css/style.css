@@ -18,6 +18,9 @@
   margin-right: -5px;
   margin-left: -5px; }
 
+.img-responsive {
+  width: 100%; }
+
 nav {
   background: #008AB4;
   padding: 10px 0;
