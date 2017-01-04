@@ -76,7 +76,8 @@ footer {
   background: white;
   margin-bottom: 10px; }
   .offer-tile .content {
-    margin: 5px; }
+    margin: 5px;
+    padding-bottom: 5px; }
     .offer-tile .content h2 {
       font-size: 14px;
       letter-spacing: 0;
