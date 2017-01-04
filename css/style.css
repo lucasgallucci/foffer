@@ -21,6 +21,18 @@
 .img-responsive {
   width: 100%; }
 
+p {
+  font-size: 13px;
+  font-weight: 400; }
+
+h3 {
+  font-size: 22px;
+  font-weight: 700; }
+
+h4 {
+  font-size: 20px;
+  font-weight: 600; }
+
 nav {
   background: #008AB4;
   padding: 10px 0;
@@ -30,6 +42,9 @@ nav {
   nav .col-xs-10 {
     padding-left: 10px;
     padding-right: 10px; }
+  nav.search span {
+    margin: 10px 0;
+    display: inline-block; }
 
 footer {
   position: fixed;
@@ -78,14 +93,31 @@ footer {
   .offer-tile .content {
     margin: 5px;
     padding-bottom: 5px; }
-    .offer-tile .content h2 {
-      font-size: 14px;
-      letter-spacing: 0;
-      line-height: 14px;
+    .offer-tile .content .title {
       margin: 10px 0;
-      font-weight: 600;
       height: 50px;
-      overflow: hidden; }
+      overflow: hidden;
+      position: relative; }
+      .offer-tile .content .title h2 {
+        margin: 0;
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 14px;
+        font-weight: 600; }
+      .offer-tile .content .title .text-fade {
+        height: 10px;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+99 */
+        background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 99%, white 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 99%, white 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 99%, white 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+        /* IE6-9 */
+        position: absolute;
+        bottom: 0;
+        width: 100%; }
     .offer-tile .content .price-box {
       display: flex;
       justify-content: space-around; }
@@ -129,14 +161,6 @@ body {
 .bg-gray {
   background: #F4F4F4; }
 
-h3 {
-  font-size: 22px;
-  font-weight: 700; }
-
-h4 {
-  font-size: 20px;
-  font-weight: 600; }
-
 hr {
   margin: 0 10px; }
 
@@ -158,6 +182,9 @@ hr {
   box-shadow: none;
   border: none; }
 
+.white {
+  color: white; }
+
 header {
   color: white; }
   header .carousel .carousel-caption {
@@ -175,6 +202,10 @@ header {
 
 .offset {
   padding-top: 55px;
+  padding-bottom: 70px; }
+
+.offset-search {
+  padding-top: 108px;
   padding-bottom: 70px; }
 
 .no-padding-left {

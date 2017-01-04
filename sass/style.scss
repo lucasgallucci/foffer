@@ -6,6 +6,7 @@ $text-color: #9B9B9B;
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900');
 @import "bootstrap-fix";
+@import "text";
 @import "nav";
 @import "footer";
 @import "slider";
@@ -20,15 +21,6 @@ body{
 	background: #F4F4F4;
 }
 
-h3{
-	font-size: 22px;
-	font-weight: 700;
-}
-
-h4{
-	font-size: 20px;
-	font-weight: 600;
-}
 
 hr{
 	margin: 0 10px;
@@ -54,6 +46,10 @@ hr{
     background: white;
     box-shadow: none;
     border: none;
+}
+
+.white{
+	color: white;
 }
 
 header{
@@ -82,6 +78,12 @@ header{
 	padding-top: 55px;
 	padding-bottom: 70px;
 }
+
+.offset-search{
+	padding-top: 108px;
+	padding-bottom: 70px;
+}
+
 
 .no-padding-left{
 	padding-left: 0;
