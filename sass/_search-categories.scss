@@ -1,0 +1,17 @@
+#search-categories{
+	.offset-categories{
+		background: $color1;
+		color: white;
+		height: 100%;
+		ul.search-categories{
+			padding: 0;
+			text-align: center;
+			li{
+				margin: 10px 0;
+				a{
+					color: white;
+				}
+			}
+		}	
+	}
+}

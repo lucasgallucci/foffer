@@ -11,10 +11,16 @@ $text-color: #9B9B9B;
 @import "footer";
 @import "slider";
 @import "offer-tile";
+@import "search-categories";
+@import "search-filters";
 
 body{
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #4A4A4A;
+}
+
+html, body{
+	height: 100%;
 }
 
 .bg-gray{

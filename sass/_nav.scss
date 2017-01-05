@@ -10,10 +10,21 @@ nav{
 	}
 
 	&.search{
+		p{
+			display: inline-block;
+		}
+
 		span{
 			margin: 10px 0;
 			display: inline-block;
-		}	
+		}
+		a{
+			color: white;
+			font-size: 13px;
+			font-weight: 600;
+			display: inline-block;
+			margin: 0 3px;
+		}
 	}
 }
 
