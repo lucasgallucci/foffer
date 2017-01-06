@@ -138,7 +138,7 @@ footer {
         line-height: 10px; }
       .offer-tile .content .price-box .save {
         font-size: 12px;
-        color: #9B9B9B;
+        color: #4A4A4A;
         font-weight: 300;
         letter-spacing: 0; }
       .offer-tile .content .price-box .price {
@@ -191,7 +191,7 @@ footer {
         line-height: 20px; }
       .offer-tile-horizontal .content .price-box .save {
         font-size: 12px;
-        color: #9B9B9B;
+        color: #4A4A4A;
         font-weight: 300;
         letter-spacing: 0; }
       .offer-tile-horizontal .content .price-box .price p {
@@ -307,7 +307,7 @@ footer {
         padding: 0px 5px;
         margin: 3px 0;
         display: inline-block;
-        font-size: 12px; }
+        font-size: 13px; }
         #search-filters .filters ul.location li span strong {
           font-weight: 600;
           margin-right: 5px; }
@@ -321,6 +321,40 @@ footer {
     padding: 30px 0; }
     #search-filters .clear-filters a {
       color: white; }
+
+#profile header {
+  min-height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2015/01/24/601321/big_thumb_a16a1f1ef5ab81905531e6d6fc68675a.jpg"); }
+#profile .profile-info {
+  position: relative;
+  top: -50px; }
+  #profile .profile-info img {
+    border: 3px solid rgba(255, 255, 255, 0.7);
+    max-width: 100px;
+    margin: auto; }
+  #profile .profile-info h2 {
+    font-size: 18px;
+    color: #4A4A4A;
+    letter-spacing: -0.11px;
+    margin: 5px 0;
+    text-align: center; }
+  #profile .profile-info .btn-profile {
+    margin-top: 10px; }
+    #profile .profile-info .btn-profile a {
+      margin: 0 3px; }
+  #profile .profile-info .account-info {
+    margin-top: 20px; }
+    #profile .profile-info .account-info .rating {
+      text-align: center;
+      margin-bottom: 10px;
+      padding: 0; }
+      #profile .profile-info .account-info .rating li {
+        display: inline-block; }
+    #profile .profile-info .account-info p {
+      margin: 0; }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -339,13 +373,21 @@ hr {
   margin: 10px 0; }
 
 .btn {
-  color: #9B9B9B;
+  color: #4A4A4A;
   padding: 0 5px;
-  border: 1px solid #9B9B9B;
+  border: 1px solid #4A4A4A;
   font-size: 13px; }
   .btn.white {
     color: white;
     border: 1px solid white; }
+  .btn.btn-primary {
+    background: #008AB4;
+    border-color: #008AB4;
+    color: white; }
+  .btn.btn-default {
+    border-color: #9B9B9B;
+    background: #9B9B9B;
+    color: white; }
 
 .well {
   padding: 10px;
@@ -355,6 +397,12 @@ hr {
 
 .white {
   color: white; }
+
+.gold {
+  color: gold; }
+
+.gray {
+  color: #ccc; }
 
 header {
   color: white; }

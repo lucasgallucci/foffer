@@ -1,7 +1,7 @@
 $color1: #008AB4;
 $border-gray: #E5E5E5;
 $icon-gray: #9B9B9B;
-$text-color: #9B9B9B;
+$text-color: #4A4A4A;
 
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900');
@@ -13,6 +13,7 @@ $text-color: #9B9B9B;
 @import "offer-tile";
 @import "search-categories";
 @import "search-filters";
+@import "profile";
 
 body{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -45,6 +46,16 @@ hr{
 		color: white;
 		border: 1px solid white;
 	}
+	&.btn-primary{
+		background: $color1;
+		border-color:$color1;
+		color: white;
+	}
+	&.btn-default{
+		border-color: $icon-gray;
+		background: $icon-gray;
+		color: white;
+	}
 }
 
 .well{
@@ -56,6 +67,14 @@ hr{
 
 .white{
 	color: white;
+}
+
+.gold{
+	color: gold;
+}
+
+.gray{
+	color: #ccc; 
 }
 
 header{
