@@ -228,47 +228,99 @@ footer {
       #search-categories .offset-categories ul.search-categories li a {
         color: white; }
 
-.filters .line {
-  display: block;
-  text-align: center; }
-  .filters .line:after {
-    content: "";
-    background: white;
-    height: 1px;
+#search-filters {
+  color: white;
+  background: #008AB4; }
+  #search-filters .filters .line {
+    display: block;
+    text-align: center;
+    position: relative; }
+    #search-filters .filters .line:after {
+      content: "";
+      background: white;
+      height: 1px;
+      width: 100%;
+      position: relative;
+      top: -33px;
+      left: 0;
+      display: inline-block; }
+  #search-filters .filters h5 {
+    text-align: center;
+    background: #008AB4;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+    padding: 0 10px;
+    text-transform: uppercase; }
+  #search-filters .filters ul {
+    display: flex;
     width: 100%;
-    position: absolute;
-    top: 17px;
-    left: 0;
-    display: inline-block; }
-.filters h5 {
-  text-align: center;
-  background: #008AB4;
-  display: inline-block;
-  z-index: 1;
-  position: relative;
-  padding: 0 10px; }
-.filters ul {
-  display: flex;
-  width: 100%;
-  list-style: none;
-  padding: 0; }
-  .filters ul li {
-    width: 33.3%; }
-    .filters ul li span {
-      font-size: 25px;
-      width: 50px;
-      height: 50px;
-      border: 1px solid white;
-      text-align: center;
-      display: flex;
+    list-style: none;
+    padding: 0; }
+    #search-filters .filters ul li {
+      width: 33.3%; }
+      #search-filters .filters ul li .icon {
+        font-size: 25px;
+        width: 50px;
+        height: 50px;
+        border: 1px solid white;
+        text-align: center;
+        display: flex;
+        border-radius: 50%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px; }
+        #search-filters .filters ul li .icon.selected {
+          background: white;
+          color: #008AB4; }
+      #search-filters .filters ul li p {
+        text-align: center;
+        margin: 0; }
+  #search-filters .filters .price-filter-input {
+    width: 100%;
+    display: inline-block;
+    height: 5px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.6);
+    position: relative;
+    margin-bottom: 10px; }
+    #search-filters .filters .price-filter-input:after, #search-filters .filters .price-filter-input:before {
+      content: "";
+      height: 9px;
+      width: 9px;
+      background: white;
       border-radius: 50%;
-      margin: auto;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 10px; }
-    .filters ul li p {
-      text-align: center;
-      margin: 0; }
+      display: inline-block;
+      position: absolute;
+      top: -2px; }
+    #search-filters .filters .price-filter-input:after {
+      right: 0; }
+  #search-filters .filters ul.location {
+    list-style: none;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap; }
+    #search-filters .filters ul.location li {
+      width: 50%; }
+      #search-filters .filters ul.location li span {
+        padding: 0px 5px;
+        margin: 3px 0;
+        display: inline-block;
+        font-size: 12px; }
+        #search-filters .filters ul.location li span strong {
+          font-weight: 600;
+          margin-right: 5px; }
+        #search-filters .filters ul.location li span.selected {
+          background: white;
+          border-radius: 10px;
+          color: #008AB4; }
+  #search-filters .clear-filters {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    background: #00b1e7;
+    padding: 30px 0; }
+    #search-filters .clear-filters a {
+      color: white; }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
