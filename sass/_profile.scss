@@ -1,48 +1,45 @@
 #profile{
-	header{
-		min-height: 200px;
-		background-size: cover;
-		background-position: center;
-		background-repeat:none;
-		background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2015/01/24/601321/big_thumb_a16a1f1ef5ab81905531e6d6fc68675a.jpg");
-		
-	}
-	.profile-info{
-		position: relative;
-    	top: -50px;
-		img{
-			border: 3px solid rgba(255,255,255,0.7);
-			max-width: 100px;
-			margin: auto;
+	.profile-card{
+		background: white;
+		header{
+			min-height: 200px;
+			background-size: cover;
+			background-position: center;
+			background-repeat:none;
+			background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2015/01/24/601321/big_thumb_a16a1f1ef5ab81905531e6d6fc68675a.jpg");
+			
 		}
-	
-		h2{
-			font-size: 18px;
-			color: $text-color;
-			letter-spacing: -0.11px;
-			margin: 5px 0;
-			text-align: center;
-		}
-		
-		.btn-profile{
-			margin-top: 10px;
-			a{
-				margin: 0 3px;
+		.profile-info{
+			
+			position: relative;
+	    	top: -50px;
+			img{
+				border: 3px solid rgba(255,255,255,0.7);
+				max-width: 100px;
+				margin: auto;
 			}
-		}
-		.account-info{
-			margin-top: 20px;
-			.rating{
+		
+			h2{
+				font-size: 18px;
+				color: $text-color;
+				letter-spacing: -0.11px;
+				margin: 5px 0;
 				text-align: center;
-				margin-bottom: 10px;
-				padding: 0;
-				li{
-					display: inline-block;
+			}
+			
+			.btn-profile{
+				margin-top: 10px;
+				a{
+					margin: 0 3px;
 				}
 			}
-			p{
-				margin: 0;
+			.account-info{
+				margin-top: 20px;
+				p{
+					margin: 0;
+				}
 			}
 		}
 	}
+	
 }

@@ -216,6 +216,35 @@ footer {
     color: #999;
     font-size: 12px; }
 
+.user-tile {
+  border-radius: 5px;
+  background: white;
+  margin-bottom: 10px;
+  padding-bottom: 10px; }
+  .user-tile header {
+    height: 80px;
+    background-size: cover;
+    background-position: center; }
+  .user-tile .content {
+    margin: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    margin-top: -35px; }
+    .user-tile .content .avatar {
+      max-width: 55px;
+      margin: auto; }
+    .user-tile .content .title {
+      margin: 10px 0;
+      position: relative; }
+      .user-tile .content .title h2 {
+        margin: 0;
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: 14px;
+        font-weight: 400; }
+    .user-tile .content .btn-secondary {
+      font-size: 12px; }
+
 #search-categories .offset-categories {
   background: #008AB4;
   color: white;
@@ -322,39 +351,35 @@ footer {
     #search-filters .clear-filters a {
       color: white; }
 
-#profile header {
-  min-height: 200px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: none;
-  background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2015/01/24/601321/big_thumb_a16a1f1ef5ab81905531e6d6fc68675a.jpg"); }
-#profile .profile-info {
-  position: relative;
-  top: -50px; }
-  #profile .profile-info img {
-    border: 3px solid rgba(255, 255, 255, 0.7);
-    max-width: 100px;
-    margin: auto; }
-  #profile .profile-info h2 {
-    font-size: 18px;
-    color: #4A4A4A;
-    letter-spacing: -0.11px;
-    margin: 5px 0;
-    text-align: center; }
-  #profile .profile-info .btn-profile {
-    margin-top: 10px; }
-    #profile .profile-info .btn-profile a {
-      margin: 0 3px; }
-  #profile .profile-info .account-info {
-    margin-top: 20px; }
-    #profile .profile-info .account-info .rating {
-      text-align: center;
-      margin-bottom: 10px;
-      padding: 0; }
-      #profile .profile-info .account-info .rating li {
-        display: inline-block; }
-    #profile .profile-info .account-info p {
-      margin: 0; }
+#profile .profile-card {
+  background: white; }
+  #profile .profile-card header {
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2015/01/24/601321/big_thumb_a16a1f1ef5ab81905531e6d6fc68675a.jpg"); }
+  #profile .profile-card .profile-info {
+    position: relative;
+    top: -50px; }
+    #profile .profile-card .profile-info img {
+      border: 3px solid rgba(255, 255, 255, 0.7);
+      max-width: 100px;
+      margin: auto; }
+    #profile .profile-card .profile-info h2 {
+      font-size: 18px;
+      color: #4A4A4A;
+      letter-spacing: -0.11px;
+      margin: 5px 0;
+      text-align: center; }
+    #profile .profile-card .profile-info .btn-profile {
+      margin-top: 10px; }
+      #profile .profile-card .profile-info .btn-profile a {
+        margin: 0 3px; }
+    #profile .profile-card .profile-info .account-info {
+      margin-top: 20px; }
+      #profile .profile-card .profile-info .account-info p {
+        margin: 0; }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -387,6 +412,10 @@ hr {
   .btn.btn-default {
     border-color: #9B9B9B;
     background: #9B9B9B;
+    color: white; }
+  .btn.btn-secondary {
+    border-color: #7ED321;
+    background: #7ED321;
     color: white; }
 
 .well {
@@ -442,5 +471,39 @@ header {
     flex: 1;
     margin: 0 15px;
     min-width: 80px; }
+
+ul.social-circle {
+  padding: 0;
+  text-align: center;
+  margin: 15px 0; }
+  ul.social-circle li {
+    display: inline-block;
+    margin: 0 3px; }
+    ul.social-circle li span {
+      background: #9B9B9B;
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 30px;
+      color: white;
+      font-size: 16px; }
+
+ul.tags {
+  padding: 0; }
+  ul.tags li {
+    display: inline-block;
+    background: #ddd;
+    border-radius: 3px;
+    padding: 1px 5px;
+    margin: 5px 5px 5px 0; }
+
+ul.rating {
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 0; }
+  ul.rating li {
+    display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */

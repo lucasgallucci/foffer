@@ -1,9 +1,6 @@
-$color1: #008AB4;
-$border-gray: #E5E5E5;
-$icon-gray: #9B9B9B;
-$text-color: #4A4A4A;
 
 
+@import "vars";
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900');
 @import "bootstrap-fix";
 @import "text";
@@ -11,6 +8,7 @@ $text-color: #4A4A4A;
 @import "footer";
 @import "slider";
 @import "offer-tile";
+@import "user-tile";
 @import "search-categories";
 @import "search-filters";
 @import "profile";
@@ -54,6 +52,12 @@ hr{
 	&.btn-default{
 		border-color: $icon-gray;
 		background: $icon-gray;
+		color: white;
+	}
+
+	&.btn-secondary{
+		border-color: $color2;
+		background: $color2;
 		color: white;
 	}
 }
@@ -133,6 +137,49 @@ header{
 
 
 
+ul.social-circle{
+	padding: 0;
+	text-align: center;
+	margin: 15px 0;
+	li{
+		display: inline-block;
+		margin: 0 3px;
+		span{
+			background: $icon-gray;
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			text-align: center;
+			line-height: 30px;
+			color: white;
+			font-size: 16px;
+		}
+	}
+}
+
+
+ul.tags{
+	padding: 0;
+	li{
+		display: inline-block;
+		background: #ddd;
+		border-radius: 3px;
+		padding: 1px 5px;
+		margin: 5px 5px 5px 0;
+
+	}
+}
+
+
+ul.rating{
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 0;
+	li{
+		display: inline-block;
+	}
+}
 
 
 
