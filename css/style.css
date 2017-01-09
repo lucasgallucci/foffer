@@ -229,10 +229,11 @@ footer {
     margin: 5px;
     padding-bottom: 5px;
     position: relative;
-    margin-top: -35px; }
+    margin-top: -30px; }
     .user-tile .content .avatar {
       max-width: 55px;
-      margin: auto; }
+      margin: auto;
+      border: 2px solid white; }
     .user-tile .content .title {
       margin: 10px 0;
       position: relative; }
