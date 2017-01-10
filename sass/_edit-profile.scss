@@ -1,0 +1,57 @@
+#edit-profile{
+	.offset{
+		padding-bottom: 0;
+	}
+	header{
+		min-height: 150px;
+		background-size: cover;
+		background-position: center;
+		background-repeat:none;
+		background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2015/01/24/601321/big_thumb_a16a1f1ef5ab81905531e6d6fc68675a.jpg");
+		position: relative;
+		a{
+			position: absolute;
+			top: 10px;
+			right: 10px;
+		}
+	}
+	.profile-info{
+		position: relative;
+    	top: -50px;
+		img{
+			border: 3px solid rgba(255,255,255,0.7);
+			max-width: 100px;
+			margin: auto;
+		}
+		.btn-profile{
+			margin: 10px 0;
+		}
+	}
+
+	ul.social-circle{
+		li{
+			display: flex;
+			margin-bottom: 10px;
+			span{
+				margin-right: 10px;
+				background: none;
+				color: $icon-gray; 
+			}
+		}
+	}
+}
+
+
+
+.save-changes{
+	ul{
+		padding: 0;
+		display: flex;
+		margin: 0;
+		li{
+			width: 50%;
+			list-style: none;
+			padding: 10px;
+		}
+	}
+}

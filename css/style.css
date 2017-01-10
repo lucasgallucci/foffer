@@ -355,7 +355,7 @@ footer {
 #profile .profile-card {
   background: white; }
   #profile .profile-card header {
-    min-height: 200px;
+    min-height: 150px;
     background-size: cover;
     background-position: center;
     background-repeat: none;
@@ -381,6 +381,45 @@ footer {
       margin-top: 20px; }
       #profile .profile-card .profile-info .account-info p {
         margin: 0; }
+
+#edit-profile .offset {
+  padding-bottom: 0; }
+#edit-profile header {
+  min-height: 150px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  background-image: url("http://www.wallpaperup.com/uploads/wallpapers/2015/01/24/601321/big_thumb_a16a1f1ef5ab81905531e6d6fc68675a.jpg");
+  position: relative; }
+  #edit-profile header a {
+    position: absolute;
+    top: 10px;
+    right: 10px; }
+#edit-profile .profile-info {
+  position: relative;
+  top: -50px; }
+  #edit-profile .profile-info img {
+    border: 3px solid rgba(255, 255, 255, 0.7);
+    max-width: 100px;
+    margin: auto; }
+  #edit-profile .profile-info .btn-profile {
+    margin: 10px 0; }
+#edit-profile ul.social-circle li {
+  display: flex;
+  margin-bottom: 10px; }
+  #edit-profile ul.social-circle li span {
+    margin-right: 10px;
+    background: none;
+    color: #9B9B9B; }
+
+.save-changes ul {
+  padding: 0;
+  display: flex;
+  margin: 0; }
+  .save-changes ul li {
+    width: 50%;
+    list-style: none;
+    padding: 10px; }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
@@ -418,6 +457,9 @@ hr {
     border-color: #7ED321;
     background: #7ED321;
     color: white; }
+  .btn.btn-lg {
+    font-size: 14px;
+    padding: 5px; }
 
 .well {
   padding: 10px;

@@ -2,7 +2,7 @@
 	.profile-card{
 		background: white;
 		header{
-			min-height: 200px;
+			min-height: 150px;
 			background-size: cover;
 			background-position: center;
 			background-repeat:none;
@@ -10,7 +10,6 @@
 			
 		}
 		.profile-info{
-			
 			position: relative;
 	    	top: -50px;
 			img{
@@ -41,5 +40,4 @@
 			}
 		}
 	}
-	
 }
